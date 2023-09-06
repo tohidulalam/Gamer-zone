@@ -1,0 +1,149 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 70px;
+    background: #FFF;
+}
+
+.nav-container{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 150px;
+}
+
+.nav-container h4{
+    
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h2{
+    margin-left: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.nav-text>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul>li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.nav-icons img{
+    width: 35px;
+    height: 25px;
+    margin-left: 16px;
+    
+
+}
+
+
+.padding-right{
+    padding-right: 20px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text{
+    width: 50%;
+}
+
+.banner-image{
+    width: 50%;
+}
+
+.banner-image img{
+    width: 80%;
+    margin-right: 150px;
+    
+}
+
+.banner-heading{
+    color: #0B0223;
+    padding-left: 150px;
+    font-size: 48px;
+    font-weight: 600;
+    }
+
+.goat{
+    font-size: 95px;
+    font-weight: 800;
+    padding-left: 150px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.banner-inside-text{
+    padding-left: 150px;
+}
+
+.banner-text p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+
+}
+
+.pink{
+    display: inline-flex;
+    padding: 15px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    color: #FFF;
+    border: none;
+}
+
+.blue{
+    display: inline-flex;
+    padding: 15px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
