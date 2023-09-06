@@ -6,10 +6,11 @@
 
 header{
     height: 70px;
-    background: #FFF;
+
 }
 
 .nav-container{
+    background: #FFF;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -146,4 +147,61 @@ a{
     color: white;
     border: none;
     margin-left: 20px;
+}
+
+.about-container{
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding: 40px 150px;
+}
+
+.about-image{
+    width: 50%;
+}
+
+.about-image img{
+    width: 100%;
+}
+
+.about-text{
+    width: 50%;
+}
+
+.about-text h2{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.about-text p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.about-text h4{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+}
+
+.about-text h3{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.about-button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 24px 0px;
 }
