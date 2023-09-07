@@ -205,3 +205,138 @@ a{
     justify-content: flex-end;
     padding: 24px 0px;
 }
+.video-header{
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+.video-header h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+}
+
+.decorate-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.video-container{
+    display: flex;
+    margin: 20px 150px;
+    gap: 15px;
+}
+
+.video img{
+    width: 250px;
+    height: 300px;
+}
+
+.video h4{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+
+.anniversary-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 150px;
+}
+
+
+.anniversary-text h2{
+    text-align: right;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    padding-right: 150px;
+}
+
+.anniversary-text p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    padding-right: 150px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+/* styles.css */
+.image-container {
+    position: relative;
+}
+
+.overlay-image {
+    position: absolute;
+    left: -150px;
+    bottom: -50px;
+    z-index: 1; 
+    width: 20px;
+    height: 250px;/* This value can be adjusted to control the stacking order */
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+}
+
+.anniversary-images img{
+    width: 110%;
+}
+
+.career-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 150px;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+}
+
+.career-container h2{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    
+}
+.career-container h5{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    margin: 20px 0px;
+
+}
+
+.career-text{
+    width: 50%;
+}
+
+.career-img {
+    width: 50%;
+}
+.career-img img{
+    width: 100%;
+    padding-left: 50px;
+}
+
+.career{
+    display: flex;
+    justify-content: space-between;
+}
+
+.career p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+}
